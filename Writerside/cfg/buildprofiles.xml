@@ -7,6 +7,10 @@
     <build-profile instance="t">
         <variables>
             <noindex-content>true</noindex-content>
+            <algolia-id>OF49UOF548</algolia-id>
+            <algolia-index>Tutoriales</algolia-index>
+            <algolia-api-key>31f1778a51c1cc079bcb36efca226a63</algolia-api-key> <!-- Public API-Key -->
+            <algolia-show-logo>true</algolia-show-logo>
         </variables>
     </build-profile>
 
