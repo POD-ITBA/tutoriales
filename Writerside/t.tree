@@ -4,7 +4,25 @@
 
 <instance-profile id="t"
                  name="Tutoriales"
-                 start-page="starter.md">
+                 start-page="Starting-Page.topic">
 
-    <toc-element topic="starter.md"/>
+    <toc-element topic="Starting-Page.topic"/>
+    <toc-element toc-title="Java">
+        <toc-element topic="Install-Java.md">
+            <toc-element topic="Install-Java-on-macOS.md"/>
+            <toc-element topic="Install-Java-on-Linux.md"/>
+            <toc-element topic="Install-Java-on-Windows.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="Maven">
+        <toc-element topic="Install-Maven.md">
+            <toc-element topic="Install-Maven-on-macOS.md"/>
+            <toc-element topic="Install-Maven-on-Linux.md">
+            </toc-element>
+            <toc-element topic="Install-Maven-on-Windows.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="IntelliJ">
+        <toc-element topic="Install-IntelliJ.md"/>
+    </toc-element>
 </instance-profile>

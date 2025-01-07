@@ -3,7 +3,16 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <variables></variables>
+    <variables>
+        <primary-color>aqua</primary-color>
+        <link-color>halloween</link-color>
+        <custom-favicons>icon16.png,icon32.png,icon96.png,icon300.png,icon500.png</custom-favicons>
+        <header-logo>icon96.png</header-logo>
+        <product-web-url>https://github.com/POD-ITBA</product-web-url>
+        <download-title>GitHub</download-title>
+        <download-page>https://github.com/POD-ITBA/</download-page>
+        <showDownloadButton>true</showDownloadButton>
+    </variables>
     <build-profile instance="t">
         <variables>
             <noindex-content>true</noindex-content>
@@ -13,5 +22,10 @@
             <algolia-show-logo>true</algolia-show-logo>
         </variables>
     </build-profile>
+
+    <footer>
+        <copyright>72.42 Programación de Objetos Distribuidos 2025</copyright>
+        <link href="https://github.com/POD-ITBA/">GitHub</link>
+    </footer>
 
 </buildprofiles>

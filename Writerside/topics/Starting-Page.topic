@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Tutoriales" id="Starting-Page">
+
+<!--    A section combines multiple topics dedicated to a specific subject.
+            Add a starting page to provide an overview of the topics in the section.
+            Start with two topics you want to promote in the <spotlight> group,
+            several important topics in the <primary> group (for example, where to start),
+            several less important topics in the <secondary> group (for example, more advanced topics),
+            and optionally add any other relevant topics in the <misc> group as cards and lists of links
+            (maybe related topics from other sections).
+            Only the spotlight section is limited to two topics.
+            For other groups, try to keep the number between 2 and 6, but you can add more if necessary.-->
+
+    <section-starting-page>
+        <title>Tutoriales</title>
+        <description>
+            Bienvenido al sitio de tutoriales para la materia 72.42 Programación de Objetos Distribuidos.
+        </description>
+
+        <!--    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
+        <spotlight>
+            <a href="Install-Java.md" type="account" summary="Instalación en macOS, Linux y Windows">Instalación de Java</a>
+            <a href="Install-Maven.md" type="search" summary="Instalación en macOS, Linux y Windows">Instalación de Maven</a>
+        </spotlight>
+
+        <!--    Optionally add additional cards and links to topics that are not in this section but may be relevant.    -->
+        <misc>
+            <cards>
+                <title>Instalación de Herramientas</title>
+                <a href="Install-IntelliJ.md"/>
+            </cards>
+
+            <links>
+                <group>
+                    <title>Más</title>
+                    <a href="https://www.jenv.be" summary="jEnv is a command line tool to help you forget how to set
+                     the JAVA_HOME environment variable">jEnv</a>
+                </group>
+            </links>
+
+        </misc>
+    </section-starting-page>
+
+</topic>

@@ -1,11 +1,11 @@
-<pdf landscape="true">
+<pdf landscape="false">
     <cover-page>
-        <title>My Awesome App</title>
-        <description>User Guide</description>
-        <copyright>Awesome Co © 2024</copyright>
+        <title>Tutoriales</title>
+        <description>Bienvenido al sitio de tutoriales para la materia 72.42 Programación de Objetos Distribuidos.</description>
+        <copyright>72.42 Programación de Objetos Distribuidos © 2025</copyright>
     </cover-page>
     <header>Text in header</header>
     <footer>Text in footer</footer>
-    <toc-title>Title for Table of Contents page</toc-title>
+    <toc-title>Índice</toc-title>
     <layout>Windows</layout>
 </pdf>
