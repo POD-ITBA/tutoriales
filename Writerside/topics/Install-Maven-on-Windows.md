@@ -1,49 +1,81 @@
-# Install Maven on Windows
+# Instalación de Maven en Windows
 
-Tutorials are learning-oriented articles that help users to go through a process and achieve a deliverable.
-Start with an introduction: for whom is this tutorial and what the reader will achieve by reading it.
-Answer the question: "Why should I follow this?"
+## Descarga de Maven
 
-Provide a short outline for the tutorial.
-In this tutorial, you will learn how to:
-* Do this
-* Deal with that
+Ir al sitio de
+<a href="https://maven.apache.org/download.cgi"><b>Maven</b></a>
+y descargar **Binary Zip Archive**
 
-## Before you start
+Luego de finalizada la descarga ubicar el archivo correspondiente. En este caso
 
-List the prerequisites that are required or recommended.
+<shortcut>apache-maven-3.9.9-bin.zip</shortcut> 
 
-Make sure that:
-- First prerequisite
-- Second prerequisite
+En el explorador de archivos, usando el menú contextual sobre la descarga elegir la opción **Extraer todo...**
 
-## Part 1
+Elegir un path donde deseemos instalar Maven. En este caso utilizaremos
 
-Describe what the user will learn and accomplish in the first part,
-then write a step-by-step procedure but on a real-world example.
+<shortcut>C:\Maven</shortcut> 
 
-1. Execute the following command in the terminal:
+Se creará la carpeta necesaria.
 
-   ```bash
-    run this --that
-   ```
+<img src="windows-maven-0.png" alt="Windows 0" width="600"/>
 
-2. Step with a [link](https://www.jetbrains.com)
+## Variables de entorno
 
-3. Final step in part 1.
+Abrir **Configuración**. Luego en **Sistema**, elegir el botón **Información**
 
-## Part 2
+En la sección **Especificaciones del dispositivo** elegir la opción **Configuración avanzada del sistema**
 
-This is the second part of the tutorial:
+En la ventana elegir la opción **Variables de entorno..** que se encuentra en la esquina inferior derecha.
 
-1. Step 1
-2. Step 2
-3. Step n
+En la sección **Variables del sistema** debe agregar una nueva variable de sistema presionando el botón **Nueva..**
 
-## What you've learned {id="what-learned"}
+En el popup completamos con <shortcut>M2_HOME</shortcut> como **Nombre de la variable**.
+En **Valor de la variable** lo completamos con la opción **Examinar directorio...**
 
-Summarize what the reader achieved by completing this tutorial.
+Elegir el path donde se instaló Java, en este caso, <shortcut>C:\Maven\apache-maven-3.9.9</shortcut>
 
-<seealso>
-<!--Give some related links to how-to articles-->
-</seealso>
+<img src="windows-maven-1.png" alt="Windows 1" width="600"/>
+
+Repetimos el proceso pero ahora para la variable de sistema <shortcut>MAVEN_HOME</shortcut>
+
+<img src="windows-maven-2.png" alt="Windows 2" width="600"/>
+
+Por último vamos a modificar la variable de sistema **Path** para que incluya a la recién definida
+
+Seleccionar la variable de sistema Path y luego **Editar...**
+
+En la ventana elegir la opción **Nuevo** y completar con
+<shortcut>% M2_HOME%\bin</shortcut>
+
+<img src="windows-maven-3.png" alt="Windows 3" width="600"/>
+
+Aceptar los cambios en todas las ventanas.
+
+## Consultar la versión instalada
+
+Consulte la versión de Maven instalada
+abriendo una terminal usando Símbolo de Sistema
+y ejecutando el siguiente comando
+
+<code-block lang="console">mvn -version</code-block>
+
+Debería ver una salida similar a la siguiente
+
+<code-block lang="plain text">
+C:\Users\foo>mvn -version    
+Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+Maven home: C:\Maven\apache-maven-3.9.9
+Java version: 23.0.1, vendor: Oracle Corportation, runtime: C:\Java\jdk-23.0.1
+Default locale: es_ES, platform encoding: UTF-8
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+</code-block>
+
+Identifique en la salida una versión
+<shortcut>23</shortcut> o superior, en este ejemplo es la <code>23.0.1</code>
+
+<note>
+    <p>
+        Listo! Ya cuenta con Java instalado correctamente.
+    </p>
+</note>
