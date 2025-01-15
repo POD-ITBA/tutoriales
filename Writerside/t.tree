@@ -25,4 +25,9 @@
     <toc-element toc-title="IntelliJ">
         <toc-element topic="Install-IntelliJ.md"/>
     </toc-element>
+    <toc-element toc-title="Arquetipo">
+        <toc-element topic="Install-Archetype.md"/>
+        <toc-element topic="New-Project-with-Archetype.md"/>
+        <toc-element topic="Project-Execution.md"/>
+    </toc-element>
 </instance-profile>

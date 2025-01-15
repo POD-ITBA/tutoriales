@@ -41,9 +41,12 @@ Abrir el archivo <shortcut>bash.bashrc</shortcut>
 
 <code-block lang="console">sudo vim /etc/bash.bashrc</code-block>
 
-Agregar un renglón al final del archivo con el siguiente comando
+Agregar dos renglones al final del archivo con los siguientes comandos:
 
-<code-block lang="console">source $(openjdk)</code-block>
+<code-block lang="console">
+source $(openjdk)
+export PATH=$JAVA_HOME/bin:$PATH
+</code-block>
 
 Guardar los cambios del archivo. 
 
