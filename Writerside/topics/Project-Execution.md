@@ -4,7 +4,8 @@ Para conseguir los scripts de ejecución (tanto el proyecto **server** como **cl
 
 <warning>
     <p>
-        Para los usuarios de <b>Windows</b> es necesario contar con la terminal <a href="https://git-scm.com/downloads/win"><b>Git Bash</b></a> 
+        Para los usuarios de <b>Windows</b> se recomienda contar con la terminal <a href="https://git-scm.com/downloads/win"><b>Git Bash</b></a>
+        para poder ejecutar comandos de bash directamente desde Windows sin WSL. 
     </p>
     <p>
         Una vez instalado, en lugar de abrir la Consola de Windows abra la aplicación Git Bash y ejecute allí los comandos que se listan a continuación 

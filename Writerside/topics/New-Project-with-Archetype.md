@@ -3,9 +3,9 @@
 Para crear un **nuevo proyecto** utilizando un arquetipo.
 
 <warning>
-    <p>
-        Asegurarse de estar ubicado en un <b>directorio distinto al del pod-archetype/</b>
-    </p>
+
+Asegurarse de estar ubicado en un **directorio distinto al del pod-archetype/**
+
 </warning>
 
 1. Ejecutar el siguiente comando
@@ -26,7 +26,8 @@ Choose archetype:
 Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): : 
 </code-block>
 
-3. Completar los valores pedidos de groupId, artifactId, version y package y por último presionar <shortcut>Y</shortcut>.
+3. Completar los valores pedidos de <code>groupId</code>, <code>artifactId</code>, <code>version</code> y <code>package</code>
+y por último presionar <shortcut>Y</shortcut>.
 
 Para version y package puede presionar <shortcut>Enter</shortcut> y así tomar el valor por defecto.
 
@@ -58,8 +59,8 @@ package: ar.edu.itba.pod
 [INFO] ------------------------------------------------------------------------
 </code-block>
 
-5. Ubicarse en el directorio recién creado (en este caso <code>sample-project</code>) 
-y correr el comando <code>install</code> sobre el pom padre.
+5. Ubicarse en el directorio recién creado (en este caso <code>sample-project/</code>) 
+y correr el comando <code>mvn clean install</code> sobre el pom padre.
 
 <tabs>
     <tab id="macos-new-project" title="macOS">
@@ -99,3 +100,46 @@ Debería obtener una salida similar a la siguiente:
 [INFO] Finished at: 2025-01-15T16:46:43-03:00
 [INFO] ------------------------------------------------------------------------
 </code-block>
+
+## Uso de IntelliJ
+
+**Para abrir el proyecto recién creado con IntelliJ IDEA.**
+
+1. Desde el IntelliJ elegir la opción <shortcut>Open</shortcut> para abrir un nuevo proyecto
+
+![intellij-archetype-1.png](intellij-archetype-1.png)
+
+2. Desde el explorador de archivos emergente elegir el **pom.xml del directorio raíz del proyecto**. 
+
+En este ejemplo es <code>sample-project/pom.xml</code>
+
+3. Elegir <shortcut>Open as Project</shortcut>
+
+![intellij-archetype-2.png](intellij-archetype-2.png)
+
+4. Desde el menú de <shortcut>Maven</shortcut> puede ejecutar los comandos <code>mvn clean</code> y 
+<code>mvn package</code> sin recurrir a la terminal
+
+![intellij-archetype-3.png](intellij-archetype-3.png)
+
+<tip>
+
+Recordar de siempre seleccionar el módulo parent 
+(en este ejemplo <code>sample-project-parent</code>) 
+
+</tip>
+
+## Solución de Problemas
+
+<tip>
+
+En el caso de que **el IDE no reconozca archivos que se generaron con el proyecto** recomendamos intentar 
+las siguientes opciones desde el menú contextual (click derecho) sobre el archivo **pom.xml del módulo padre**:
+
+1. **Generate Sources and Update Folders**
+
+2. **Sync Project**
+
+![intellij-archetype-4.png](intellij-archetype-4.png)
+
+</tip>
