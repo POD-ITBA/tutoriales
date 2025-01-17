@@ -27,20 +27,24 @@
             <a href="Install-Maven.md" type="library" summary="Instalación en macOS, Linux y Windows">Instalación de Maven</a>
         </spotlight>
 
-        <!--    Optionally add additional cards and links to topics that are not in this section but may be relevant.    -->
+        <primary>
+            <title>Instalación de Herramientas</title>
+            <a href="Install-IntelliJ.md" type="computer"/>
+            <a href="Install-Archetype.md" type="documents"/>
+        </primary>
+
+        <secondary>
+            <title>Uso del Arquetipo</title>
+            <a href="New-Project-with-Archetype.md" type="development"/>
+            <a href="Project-Execution.md" type="mixed"/>
+        </secondary>
+
         <misc>
             <cards>
-                <title>Instalación de Herramientas</title>
-                <a href="Install-IntelliJ.md" type="computer"/>
-                <a href="Install-Archetype.md" type="documents"/>
+                <title>Uso del IntelliJ</title>
+                <a href="New-Project-from-IntelliJ.md" type="development"/>
+                <a href="IntelliJ-Use-With-Archetype.md" type="mixed"/>
             </cards>
-
-            <cards>
-                <title>Nuevo Proyecto</title>
-                <a href="New-Project-with-Archetype.md" type="offer"/>
-                <a href="Project-Execution.md" type="check-list"/>
-            </cards>
-
 
             <links>
                 <group>
@@ -49,7 +53,6 @@
                      the JAVA_HOME environment variable">jEnv</a>
                 </group>
             </links>
-
         </misc>
     </section-starting-page>
 

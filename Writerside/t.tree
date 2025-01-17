@@ -29,5 +29,7 @@
         <toc-element topic="Install-Archetype.md"/>
         <toc-element topic="New-Project-with-Archetype.md"/>
         <toc-element topic="Project-Execution.md"/>
+        <toc-element topic="New-Project-from-IntelliJ.md"/>
+        <toc-element topic="IntelliJ-Use-With-Archetype.md"/>
     </toc-element>
 </instance-profile>
