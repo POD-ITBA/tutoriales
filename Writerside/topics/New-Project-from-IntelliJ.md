@@ -75,6 +75,11 @@ elegir la opción
 
 9. Completar los demás campos de la ventana de
 <shortcut>New Project</shortcut> (en este ejemplo crearemos un archivo llamado <code>my-project</code>)
-y presionar <shortcut>Create</shortcut>
 
 ![intellij-archetype-wizard-5.png](intellij-archetype-wizard-5.png)
+
+Abrir <shortcut>Advanced Settings</shortcut> para definir el **GroupId**, **ArtifactId** y **Version** deseada. 
+
+![intellij-archetype-wizard-6.png](intellij-archetype-wizard-6.png)
+
+Por último presionar <shortcut>Create</shortcut>
