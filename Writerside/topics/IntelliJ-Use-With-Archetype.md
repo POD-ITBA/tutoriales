@@ -60,6 +60,8 @@ Ahora el IDE debería mostrarle los archivos así:
 
 ![intellij-archetype-7.png](intellij-archetype-7.png)
 
+Por último **repetir pasos 1 y 2** para que el IDE reconozca esos archivos.
+
 </tip>
 
 ## Solución de Problemas Cliente HTTP
