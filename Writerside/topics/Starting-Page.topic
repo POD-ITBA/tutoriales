@@ -49,7 +49,7 @@
             <links>
                 <group>
                     <title>Más</title>
-                    <a href="https://www.jenv.be" summary="jEnv is a command line tool to help you forget how to set
+                    <a href="https://github.com/jenv/jenv" summary="jEnv is a command line tool to help you forget how to set
                      the JAVA_HOME environment variable">jEnv</a>
                 </group>
             </links>
