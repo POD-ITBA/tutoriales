@@ -38,7 +38,7 @@ definir las variables de entorno necesarias.
 
 Para aplicarlo en el **usuario actual** modificar el archivo <shortcut>~/.bashrc</shortcut>
 
-Para aplicarlo en **todos los usuarios** modificiar el archivo <shortcut>/etc/bash.bashrc</shortcut>
+Para aplicarlo en **todos los usuarios** modificar el archivo <shortcut>/etc/bash.bashrc</shortcut>
 
 Abrir el archivo y agregar dos renglones al final con los siguientes comandos:
 
