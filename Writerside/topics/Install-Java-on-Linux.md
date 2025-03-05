@@ -33,15 +33,14 @@ Instale el paquete con el siguiente comando
 
 ## Alias
 
-Se debe editar el archivo con la configuración de la terminal para
-definir las variables de entorno necesarias. En este caso se usará el editor **Vim**
-para modificar las propiedades del intérprete **Bash**.
+Se debe editar el archivo con la configuración del intérprete **Bash** para
+definir las variables de entorno necesarias.
 
-Abrir el archivo <shortcut>bash.bashrc</shortcut>
+Para aplicarlo en el **usuario actual** modificar el archivo <shortcut>~/.bashrc</shortcut>
 
-<code-block lang="console">sudo vim /etc/bash.bashrc</code-block>
+Para aplicarlo en **todos los usuarios** modificiar el archivo <shortcut>/etc/bash.bashrc</shortcut>
 
-Agregar dos renglones al final del archivo con los siguientes comandos:
+Abrir el archivo y agregar dos renglones al final con los siguientes comandos:
 
 <code-block lang="console">
 source $(openjdk)
