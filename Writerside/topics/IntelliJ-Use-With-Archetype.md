@@ -67,12 +67,17 @@ Por último **repetir pasos 1 y 2** para que el IDE reconozca esos archivos.
 <warning>
 
 <p>
+
 En el caso de que se obtenga un error con el plugin **protoc** en **macOS** asegurarse de tener instalado **Rosetta 2**:
+
 </p>
 
 <p>
+
 Para instalar Rosetta 2 **correr el siguiente comando** en la terminal
+
 <code>softwareupdate --install-rosetta</code>
+
 </p>
 
 </warning>
