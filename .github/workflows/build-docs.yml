@@ -12,7 +12,7 @@ permissions:
 
 env:
     INSTANCE: 'Writerside/t'
-    DOCKER_VERSION: '243.22562'
+    DOCKER_VERSION: '2025.11.8530'
     PDF: 'PDF.xml'
     ALGOLIA_APP_NAME: 'OF49UOF548'
     ALGOLIA_INDEX_NAME: 'Tutoriales'
