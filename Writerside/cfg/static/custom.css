@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto+Condensed:wght@300;400;500;700&display=swap");
+
+/* POD deck-inspired visual tokens */
+:root {
+  --pod-cyan: #4bb5d9;
+  --pod-cyan-deep: #3597bc;
+  --pod-cyan-soft: #79cbe7;
+  --pod-orange: #ff9900;
+  --pod-orange-deep: #c77700;
+  --pod-paper: #eef1f5;
+  --pod-ink: #506a8d;
+
+  --rs-font-family-ui: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --rs-font-family-jb-sans: "Roboto Condensed";
+  --rs-font-family-headers: "Oswald", "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --wh-color-accent-substrate-bg: var(--pod-orange);
+  --wh-color-accent-substrate-main-text: #ffffff;
+  --wh-color-accent-substrate-secondary-text: #fff0d6;
+  --app-header: var(--pod-cyan-deep);
+  --app-footer: var(--pod-cyan-deep);
+  --app-footer-vivid-bg: var(--pod-orange);
+}
+
+body,
+.article__p,
+.topic {
+  font-family: var(--rs-font-family-ui);
+  color: var(--pod-ink);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title__content,
+.section-starting-page-content__title,
+.section-starting-page-content__section-title {
+  font-family: var(--rs-font-family-headers);
+  letter-spacing: 0.02em;
+}
+
+.topic h1,
+.topic h2,
+.topic h3 {
+  color: var(--pod-cyan-deep);
+}
+
+.topic a {
+  color: #c87500;
+}
+
+.topic a:hover {
+  color: #8f5600;
+}
+
+/* Home inspired by class deck cover slides */
+.home-page__content {
+  position: relative;
+  overflow: hidden;
+  background: var(--pod-cyan);
+  background-attachment: fixed;
+}
+
+.home-page__content::before,
+.home-page__content::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  z-index: 0;
+  background: linear-gradient(
+    64deg,
+    transparent 0%,
+    transparent 12%,
+    rgba(255, 153, 0, 0.96) 12%,
+    rgba(255, 153, 0, 0.96) 25%,
+    transparent 25%,
+    transparent 35%,
+    rgba(255, 255, 255, 0.9) 35%,
+    rgba(255, 255, 255, 0.9) 42%,
+    transparent 42%,
+    transparent 53%,
+    rgba(121, 203, 231, 0.94) 53%,
+    rgba(121, 203, 231, 0.94) 67%,
+    transparent 67%,
+    transparent 78%,
+    rgba(53, 151, 188, 0.92) 78%,
+    rgba(53, 151, 188, 0.92) 100%
+  );
+}
+
+.home-page__content::before {
+  top: -11rem;
+  left: -9rem;
+  width: 35rem;
+  height: 26rem;
+  transform: rotate(-15deg);
+}
+
+.home-page__content::after {
+  right: -9rem;
+  bottom: -12rem;
+  width: 36rem;
+  height: 27rem;
+  transform: rotate(-17deg);
+}
+
+.home-page__content > * {
+  position: relative;
+  z-index: 1;
+}
+
+.home-page__header,
+.home-page__footer {
+  background-color: var(--pod-cyan-deep);
+  box-shadow: inset 0 -2px 0 rgba(255, 153, 0, 0.7);
+}
+
+.home-page__content .section-starting-page-content__title,
+.home-page__content .section-starting-page-content__description {
+  color: #ffffff;
+}
+
+.section-starting-page-content__section--highlighted {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.section-starting-page-content__section--highlighted .section-starting-page-content__card,
+.section-starting-page-content__section--highlighted .section-starting-page-content__card:hover,
+.home-page__product-column {
+  background-color: rgba(252, 252, 252, 0.95);
+  border: 1px solid rgba(75, 181, 217, 0.45);
+  box-shadow: 0 10px 24px rgba(36, 91, 112, 0.18);
+}
+
+.home-page__content .section-starting-page-content__section--highlighted .section-starting-page-content__card .rs-h3,
+.home-page__content .section-starting-page-content__section--highlighted .section-starting-page-content__card .rs-text-2,
+.home-page__content .home-page__product-column .rs-h3,
+.home-page__content .home-page__product-column .rs-text-2 {
+  color: #32556e;
+}
+
+/* Dark mode tuned for contrast while preserving palette */
+html.theme-dark {
+  --pod-cyan: #1f6f8b;
+  --pod-cyan-deep: #143f51;
+  --pod-cyan-soft: #3e94b6;
+  --pod-paper: #101820;
+  --pod-ink: #d3e5ef;
+  --app-header: #143f51;
+  --app-footer: #143f51;
+  --wh-color-accent-substrate-bg: #cc7a00;
+}
+
+html.theme-dark body,
+html.theme-dark .article__p,
+html.theme-dark .topic {
+  color: #d3e5ef;
+}
+
+html.theme-dark .topic h1,
+html.theme-dark .topic h2,
+html.theme-dark .topic h3 {
+  color: #74c5e4;
+}
+
+html.theme-dark .topic a {
+  color: #ffb347;
+}
+
+html.theme-dark .topic a:hover {
+  color: #ffd08a;
+}
+
+html.theme-dark .home-page__content {
+  background: linear-gradient(155deg, #184f64 0%, #1f6f8b 56%, #2a85a8 100%);
+}
+
+html.theme-dark .home-page__content::before,
+html.theme-dark .home-page__content::after {
+  background: linear-gradient(
+    64deg,
+    transparent 0%,
+    transparent 12%,
+    rgba(255, 153, 0, 0.88) 12%,
+    rgba(255, 153, 0, 0.88) 24%,
+    transparent 24%,
+    transparent 36%,
+    rgba(238, 238, 238, 0.75) 36%,
+    rgba(238, 238, 238, 0.75) 42%,
+    transparent 42%,
+    transparent 54%,
+    rgba(89, 166, 198, 0.8) 54%,
+    rgba(89, 166, 198, 0.8) 66%,
+    transparent 66%,
+    transparent 78%,
+    rgba(37, 102, 128, 0.84) 78%,
+    rgba(37, 102, 128, 0.84) 100%
+  );
+}
+
+html.theme-dark .home-page__header,
+html.theme-dark .home-page__footer {
+  background-color: #143f51;
+}
+
+html.theme-dark .section-starting-page-content__section--highlighted {
+  background-color: rgba(10, 24, 31, 0.68);
+}
+
+html.theme-dark .section-starting-page-content__section--highlighted .section-starting-page-content__card,
+html.theme-dark .section-starting-page-content__section--highlighted .section-starting-page-content__card:hover,
+html.theme-dark .home-page__product-column {
+  background-color: rgba(19, 41, 54, 0.88);
+  border: 1px solid rgba(121, 203, 231, 0.38);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.34);
+}
+
+html.theme-dark .home-page__content .section-starting-page-content__section--highlighted .section-starting-page-content__card .rs-h3,
+html.theme-dark .home-page__content .section-starting-page-content__section--highlighted .section-starting-page-content__card .rs-text-2,
+html.theme-dark .home-page__content .home-page__product-column .rs-h3,
+html.theme-dark .home-page__content .home-page__product-column .rs-text-2 {
+  color: #d3e5ef;
+}

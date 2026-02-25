@@ -4,10 +4,10 @@
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
     <variables>
-        <primary-color>aqua</primary-color>
-        <link-color>halloween</link-color>
+        <primary-color>#ff9900</primary-color>
+        <custom-css>custom.css</custom-css>
         <custom-favicons>icon16.png,icon32.png,icon96.png,icon300.png,icon500.png</custom-favicons>
-        <header-logo>icon96.png</header-logo>
+        <header-logo>logo.png</header-logo>
         <product-web-url>https://github.com/POD-ITBA</product-web-url>
         <download-title>GitHub</download-title>
         <download-page>https://github.com/POD-ITBA/</download-page>
