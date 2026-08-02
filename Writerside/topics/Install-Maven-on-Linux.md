@@ -15,11 +15,12 @@ Puede verificar la instalación de **snap** utilizando el siguiente comando
 donde debería obtener una salida como la siguiente
 
 <code-block lang="plain text">
-snap    2.66.1+24.10
-snapd   2.66.1+24.10
-series  16
-ubuntu  24.10
-kernel  6.11.0-13-generic
+snap          2.76.1
+snapd         2.76.1
+series        16
+ubuntu        26.04
+kernel        7.0.0-28-generic
+architecture  arm64
 </code-block>
 
 ## Instalación de Maven
@@ -59,15 +60,15 @@ Debería ver una salida similar a la siguiente
 
 <code-block lang="plain text">
 user@host:~$ mvn -version
-Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
-Maven home: /snap/strictly-maven/22/maven
-Java version: 23.0.1, vendor: Snap Build, runtime: /snap/strictly-maven/22/jdk
-Default locale: en_US, platform encoding: UTF-8
-OS name: "linux", version: "6.11.0-13-generic", arch: "aarch64", family: "unix"
+Apache Maven 3.9.16 (2bdd9fddda4b155ebf8000e807eb73fd829a51d5)
+Maven home: /snap/strictly-maven/37/maven
+Java version: 26.0.1, vendor: Snap Build, runtime: /snap/strictly-maven/37/jdk
+Default locale: es_ES, platform encoding: UTF-8
+OS name: "linux", version: "7.0.0-28-generic", arch: "aarch64", family: "unix"
 </code-block>
 
 Identifique en la salida una versión
-<shortcut>3.9</shortcut> o superior, en este ejemplo es la <code>3.9.9</code>
+<shortcut>3.9</shortcut> o superior, en este ejemplo es la <code>3.9.16</code>
 
 <note>
     <p>

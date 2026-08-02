@@ -8,7 +8,7 @@ y descargar **Binary Zip Archive**
 
 Luego de finalizada la descarga ubicar el archivo correspondiente. En este caso
 
-<shortcut>apache-maven-3.9.9-bin.zip</shortcut> 
+<shortcut>apache-maven-3.9.16-bin.zip</shortcut> 
 
 En el explorador de archivos, usando el menú contextual sobre la descarga elegir la opción **Extraer todo...**
 
@@ -33,7 +33,7 @@ En la sección **Variables del sistema** debe agregar una nueva variable de sist
 En el popup completamos con <shortcut>M2_HOME</shortcut> como **Nombre de la variable**.
 En **Valor de la variable** lo completamos con la opción **Examinar directorio...**
 
-Elegir el path donde se instaló Java, en este caso, <shortcut>C:\Maven\apache-maven-3.9.9</shortcut>
+Elegir el path donde se instaló Java, en este caso, <shortcut>C:\Maven\apache-maven-3.9.16</shortcut>
 
 <img src="windows-maven-1.png" alt="Windows 1" width="600"/>
 
@@ -64,15 +64,15 @@ Debería ver una salida similar a la siguiente
 
 <code-block lang="plain text">
 C:\Users\foo>mvn -version    
-Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
-Maven home: C:\Maven\apache-maven-3.9.9
-Java version: 23.0.1, vendor: Oracle Corportation, runtime: C:\Java\jdk-23.0.1
-Default locale: es_ES, platform encoding: UTF-8
+Apache Maven 3.9.16 (2bdd9fddda4b155ebf8000e807eb73fd829a51d5)
+Maven home: C:\Maven\apache-maven-3.9.16
+Java version: 26.0.2, vendor: Oracle Corporation, runtime: C:\Java\jdk-26.0.2
+Default locale: en_US, platform encoding: UTF-8
 OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
 </code-block>
 
 Identifique en la salida una versión
-<shortcut>23</shortcut> o superior, en este ejemplo es la <code>23.0.1</code>
+<shortcut>3.9</shortcut> o superior, en este ejemplo es la <code>3.9.16</code>
 
 <note>
     <p>

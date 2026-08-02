@@ -18,7 +18,7 @@ Puede verificar la instalación de **HomeBrew** utilizando el siguiente comando
 
 donde debería obtener una salida como la siguiente
 
-<code-block lang="plain text">Homebrew 4.4.15</code-block>
+<code-block lang="plain text">Homebrew 6.0.14</code-block>
 
 ## Instalación de Maven
 
@@ -39,15 +39,15 @@ Debería ver una salida similar a la siguiente
 
 <code-block lang="plain text">
 user@Users-MacBook-Pro ~ % mvn -version 
-Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
-Maven home: /opt/homebrew/Cellar/maven/3.9.9/libexec
-Java version: 23.0.1, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home
-Default locale: en_AR, platform encoding: UTF-8
-OS name: "mac os x", version: "15.2", arch: "aarch64", family: "mac"
+Apache Maven 3.9.16 (2bdd9fddda4b155ebf8000e807eb73fd829a51d5)
+Maven home: /opt/homebrew/Cellar/maven/3.9.16/libexec
+Java version: 26.0.2, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk/26.0.2/libexec/openjdk.jdk/Contents/Home
+Default locale: es_AR, platform encoding: UTF-8
+OS name: "mac os x", version: "26.6", arch: "aarch64", family: "mac"
 </code-block>
 
 Identifique en la salida una versión
-<shortcut>3.9</shortcut> o superior, en este ejemplo es la <code>3.9.9</code>
+<shortcut>3.9</shortcut> o superior, en este ejemplo es la <code>3.9.16</code>
 
 <note>
     <p>

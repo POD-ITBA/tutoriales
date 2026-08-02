@@ -3,16 +3,16 @@
 ## Descarga de OpenJDK
 
 Ir al sitio de 
-<a href="https://jdk.java.net/23/"><b>OpenJDK</b></a>
+<a href="https://jdk.java.net/26/"><b>OpenJDK</b></a>
 y descargar el .zip correspondiente a Windows.
 
-En este caso corresponde a la versión 23.
+En este caso corresponde a la versión 26.
 
 Elegir la opción **Windows/x64**
 
 Luego de finalizada la descarga ubicar el archivo correspondiente. En este caso
 
-<shortcut>openjdk-23.0.1_windows-x64_bin</shortcut> 
+<shortcut>openjdk-26.0.2_windows-x64_bin</shortcut> 
 
 En el explorador de archivos, usando el menú contextual sobre la descarga elegir la opción **Extraer todo...**
 
@@ -37,7 +37,7 @@ En la sección **Variables del sistema** debe agregar una nueva variable de sist
 En el popup completamos con <shortcut>JAVA_HOME</shortcut> como **Nombre de la variable**. 
 En **Valor de la variable** lo completamos con la opción **Examinar directorio...**
 
-Elegir el path donde se instaló Java, en este caso, <shortcut>C:\Java\jdk-23.0.1</shortcut>
+Elegir el path donde se instaló Java, en este caso, <shortcut>C:\Java\jdk-26.0.2</shortcut>
 
 <img src="windows-java-1.png" alt="Windows 1" width="600"/>
 
@@ -65,13 +65,13 @@ Debería ver una salida similar a la siguiente
 
 <code-block lang="plain text">
 C:\Users\foo>java -version    
-openjdk version "23.0.1" 2024-10-15
-OpenJDK Runtime Environment (build 23.0.1+11-39)
-OpenJDK 64-Bit Server VM (build 23.0.1+11-39, mixed mode, sharing)
+openjdk version "26.0.2" 2026-07-21
+OpenJDK Runtime Environment (build 26.0.2+10-55)
+OpenJDK 64-Bit Server VM (build 26.0.2+10-55, mixed mode, sharing)
 </code-block>
 
 Identifique en la salida una versión
-<shortcut>23</shortcut> o superior, en este ejemplo es la <code>23.0.1</code>
+<shortcut>25</shortcut> o superior, en este ejemplo es la <code>26.0.2</code>
 
 <note>
     <p>

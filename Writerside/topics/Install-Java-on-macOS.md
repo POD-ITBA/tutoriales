@@ -18,7 +18,7 @@ Puede verificar la instalación de **HomeBrew** utilizando el siguiente comando
 
 donde debería obtener una salida como la siguiente
 
-<code-block lang="plain text">Homebrew 4.4.15</code-block>
+<code-block lang="plain text">Homebrew 6.0.14</code-block>
 
 ## Instalación de OpenJDK
 
@@ -39,13 +39,13 @@ Debería ver una salida similar a la siguiente
 
 <code-block lang="plain text">
 user@Users-MacBook-Pro ~ % java -version    
-openjdk version "23.0.1" 2024-10-15
-OpenJDK Runtime Environment (build 23.0.1+11-39)
-OpenJDK 64-Bit Server VM (build 23.0.1+11-39, mixed mode, sharing)
+openjdk version "26.0.1" 2026-04-21
+OpenJDK Runtime Environment (build 26.0.1+8-34)
+OpenJDK 64-Bit Server VM (build 26.0.1+8-34, mixed mode, sharing)
 </code-block>
 
 Identifique en la salida una versión
-<shortcut>23</shortcut> o superior, en este ejemplo es la <code>23.0.1</code>
+<shortcut>25</shortcut> o superior, en este ejemplo es la <code>26.0.1</code>
 
 <note>
     <p>

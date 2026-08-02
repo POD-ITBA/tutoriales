@@ -15,11 +15,12 @@ Puede verificar la instalación de **snap** utilizando el siguiente comando
 donde debería obtener una salida como la siguiente
 
 <code-block lang="plain text">
-snap    2.66.1+24.10
-snapd   2.66.1+24.10
-series  16
-ubuntu  24.10
-kernel  6.11.0-13-generic
+snap          2.76.1
+snapd         2.76.1
+series        16
+ubuntu        26.04
+kernel        7.0.0-28-generic
+architecture  arm64
 </code-block>
 
 ## Instalación de OpenJDK
@@ -61,13 +62,13 @@ Debería ver una salida similar a la siguiente
 
 <code-block lang="plain text">
 user@host:~$ java -version
-openjdk version "23.0.1" 2024-10-15
-OpenJDK Runtime Environment (build 23.0.1+11-snap)
-OpenJDK 64-Bit Server VM (build 23.0.1+11-snap, mixed mode, sharing)
+openjdk version "26.0.1" 2026-04-21
+OpenJDK Runtime Environment (build 26.0.1+8-snap)
+OpenJDK 64-Bit Server VM (build 26.0.1+8-snap, mixed mode, sharing)
 </code-block>
 
 Identifique en la salida una versión
-<shortcut>23</shortcut> o superior, en este ejemplo es la <code>23.0.1</code>
+<shortcut>25</shortcut> o superior, en este ejemplo es la <code>26.0.1</code>
 
 <note>
     <p>

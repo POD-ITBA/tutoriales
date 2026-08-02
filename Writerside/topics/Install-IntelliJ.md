@@ -41,7 +41,7 @@ En **Language** elegir **Java**. En **Build system** elegir **IntelliJ**.
 <img src="intellij-2.png" alt="IntelliJ 2" width="600"/>
 
 Ahora es momento de indicar el JDK. En **JDK** abrir el menú contextual.
-Elegir la versión de JDK que instaló, en este caso **Oracle OpenJDK 23.0.1**.
+Elegir la versión de JDK que instaló, **25 o superior**.
 
 <img src="intellij-3.png" alt="IntelliJ-3" width="600"/>
 
